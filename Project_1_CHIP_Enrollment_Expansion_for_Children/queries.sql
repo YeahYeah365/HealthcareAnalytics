@@ -1,4 +1,5 @@
-# The following SQL query was incorporated into a blog post about Medicaid CHIP enrollments at hhttps://dragontreecomms.com/childrens-health-insurance-program-faces-headwinds 
+# I performed the following SQL queries on a data set called "State Medicaid and CHIP Applications, Eligibility Determinations, and Enrollment Data" that can be found at https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360  
+# I incorporated into a blog post about Medicaid CHIP enrollments at hhttps://dragontreecomms.com/childrens-health-insurance-program-faces-headwinds 
 # Obtained a snapshot count of the number of children enrolled in Medicaid and the number of individuals enrolled in CHIP as of the last day of each month.
 # This data and explanation are courtesy of Data.Medicaid.gov
 # I looked only at the following states and created a chart in the blog post to display the numbers: Colorado, Kansas, Arizona, Maine, and North Dakota 

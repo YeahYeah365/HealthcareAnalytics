@@ -3,7 +3,7 @@ library(tidyverse)
 library(lubridate)
 
 # 2. IMPORT (Using your path)
-chip_enrollment <- read_csv("/Users/chrishobson/Desktop/DataAnalysis/DataSets/State_Medicaid_and_CHIP_Applications/2025/Updated_on_9-26-25/Second_Draft/pi-dataset-september25-for-June25.csv", 
+chip_enrollment <- read_csv("chip_data.csv", 
                             locale = locale(encoding = "Windows-1252"))
 
 # 3. CONVERT DATES (A good way to ensure the X-axis works)

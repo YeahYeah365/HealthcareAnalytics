@@ -3,7 +3,7 @@
 # This data and explanation are courtesy of Data.Medicaid.gov
 # I looked only at the following states and created a chart in the blog post to display the numbers: Colorado, Kansas, Arizona, Maine, and North Dakota 
 
-SSELECT 
+SELECT 
     pdsfj.`State Abbreviation` AS State,
     SUM(pdsfj.MCCHIPChildEnr) AS TotalEnrollments_2022_2025
 FROM CMSData.pi_dataset_september25_for_June25 pdsfj

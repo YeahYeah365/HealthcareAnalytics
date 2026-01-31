@@ -15,7 +15,7 @@ Welcome to Chris' Healthcare Data Analysis Portfolio. This is where I will colle
 | Project | Summary | Folder Link |
 | :--- | :--- | :--- |
 | **Hepatitis B Vaccine Guidance** | SQL analysis of Hepatitis B reporting rates and vaccination trends to evaluate the impact of updated CDC guidance. | [View Project Folder](./Project_2_Hepatitis_B_Vaccine_Guidance/) |
-| **CHIP Enrollment Analysis** | Investigated enrollment trends across 5 states (2023-2025) following eligibility expansion. | [View Project Folder](./Project_1_CHIP_Enrollment_Expansion_for_Children/) |
+| **CHIP Enrollment Analysis** | Investigated enrollment trends across 5 states (2023-2025) following eligibility expansion. | [View Project Folder](./Project_1_CHIP_Enrollment_Expansion_for_Children/README.md) |
 
 
 ---

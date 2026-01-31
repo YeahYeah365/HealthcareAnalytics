@@ -1,4 +1,4 @@
-# Chris Hobson's Healthcare Data Analysis Portfolio
+# CHIP Enrollment Analysis (SQL and R)
 
 Welcome to Chris' Healthcare Data Analysis Portfolio. This is where I will collect all of my data analysis projects related to healthcare.
 

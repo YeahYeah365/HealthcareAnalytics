@@ -32,5 +32,5 @@ This project uses SQL to analyze reporting rates and vaccination trends across v
 ---
 
 ### 🔗 Technical Resources
-* **Full SQL Logic:** [View the SQL Script](./analysis_queries.sql)
+* **Full SQL Logic:** [View the SQL Script](./queries.sql)
 * **Data Source:** [Link to CDC/WHO Data Source]

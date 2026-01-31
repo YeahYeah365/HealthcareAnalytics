@@ -2,7 +2,7 @@
 library(tidyverse)
 library(lubridate)
 
-# 2. IMPORT (Using your path)
+# 2. IMPORT (Using my path)
 chip_enrollment <- read_csv("chip_data.csv", 
                             locale = locale(encoding = "Windows-1252"))
 
@@ -17,7 +17,7 @@ comparison_data <- data_ready_for_plot %>%
     ReportDate >= as.Date("2023-01-01") 
   )
 
-# 5. THE PLOT (Mapping 'color' and 'group' to State Name is what creates 5 lines)
+# 5. THE PLOT (Mapping 'color' and 'group' to State Name creates 5 lines)
 comparison_plot <- ggplot(data = comparison_data, 
                           aes(x = ReportDate, y = TotCHIPEnr, color = `State Name`, group = `State Name`)) +
   geom_line(linewidth = 1.1) + 

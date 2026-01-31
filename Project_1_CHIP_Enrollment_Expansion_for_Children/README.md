@@ -1,6 +1,7 @@
 # CHIP Enrollment Analysis (SQL and R)
 
-Welcome to Chris' Healthcare Data Analysis Portfolio. This is where I will collect all of my data analysis projects related to healthcare.
+In this project I looked at the State Medicaid and CHIP Applications, Eligibility Determinations, and Enrollment Data numbers provided by Data.Medicaid.gov. The blog post I wrote about it can be found here: https://dragontreecomms.com/childrens-health-insurance-program-faces-headwinds.
+
 
 ## Table of Contents
 * [Projects](#-featured-healthcare-projects)

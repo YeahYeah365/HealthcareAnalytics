@@ -15,6 +15,7 @@ Welcome to Chris' Healthcare Data Analysis Portfolio. This is where I will colle
 | Project | Summary | Folder Link |
 | :--- | :--- | :--- |
 | **CHIP Enrollment Analysis** | Investigated enrollment trends across 5 states (2023-2025) following eligibility expansion. | [View Project Folder](./Project_1_CHIP_Enrollment_Expansion_for_Children/) |
+| **Hepatitis B Vaccine Guidance** | SQL analysis of Hepatitis B reporting rates and vaccination trends to evaluate the impact of updated CDC guidance. | [View Project Folder](./Project_2_Hepatitis_B_Vaccine_Guidance/) |
 
 ---
 
@@ -23,7 +24,9 @@ Welcome to Chris' Healthcare Data Analysis Portfolio. This is where I will colle
 ### 📁 SQL Projects
 | Project | Key Functions | Code Link |
 | :--- | :--- | :--- |
-| **CHIP Data Extraction** | Filtering, Joins, Date formatting (YYYY-MM-DD) | [SQL Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/queries.sql) |
+| **CHIP Data Extraction** | Filtering, Joins, Date formatting | [SQL Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/queries.sql) |
+| **Hepatitis B Analysis** | Aggregations, State-level Comparison | [SQL Script](./Project_2_Hepatitis_B_Vaccine_Guidance/analysis_queries.sql) |
+
 
 ### 📊 R Projects
 | Project | Libraries Used | Code Link |

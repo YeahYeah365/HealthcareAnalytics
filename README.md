@@ -24,8 +24,8 @@ Welcome to Chris' Healthcare Data Analysis Portfolio. This is where I will colle
 ### 📁 SQL Projects
 | Project | Key Functions | Code Link |
 | :--- | :--- | :--- |
-| **CHIP Data Extraction** | Filtering, Joins, Date formatting | [SQL Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/queries.sql) |
 | **Hepatitis B Analysis** | Aggregations, State-level Comparison | [SQL Script](./Project_2_Hepatitis_B_Vaccine_Guidance/analysis_queries.sql) |
+| **CHIP Data Extraction** | Filtering, Joins, Date formatting | [SQL Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/queries.sql) |
 
 
 ### 📊 R Projects

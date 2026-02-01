@@ -4,29 +4,21 @@ In this project I looked at the State Medicaid and CHIP Applications, Eligibilit
 
 
 ## Table of Contents
-* [Projects](#-featured-healthcare-projects)
-* [SQL Implementations](#-sql-projects)
-* [R & Data Visualization](#-r-projects)
+* [SQL Scripts](#-sql-projects)
+* [R Scripts](#-r-projects)
 * [Tableau Dashboards](#-tableau-dashboards)
 * [Chris' Guides](#-chris-guides)
 
 ---
 
-## 🚀 Featured Healthcare Projects
-| Project | Summary | Folder Link |
-| :--- | :--- | :--- |
-| **CHIP Enrollment Analysis** | Investigated enrollment trends across 5 states (2023-2025) following eligibility expansion. | [View Project Folder](./Project_1_CHIP_Enrollment_Expansion_for_Children/) |
-
----
-
 ## 🛠️ Skills & Implementation
 
-### 📁 SQL Projects
+### 📁 SQL Scripts
 | Project | Key Functions | Code Link |
 | :--- | :--- | :--- |
 | **CHIP Data Extraction** | Filtering, Joins, Date formatting (YYYY-MM-DD) | [SQL Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/queries.sql) |
 
-### 📊 R Projects
+### 📊 R Scripts
 | Project | Libraries Used | Code Link |
 | :--- | :--- | :--- |
 | **Enrollment Visualization** | `tidyverse`, `ggplot2`, `lubridate` | [R Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/chip_enrollment_analysis.R) |

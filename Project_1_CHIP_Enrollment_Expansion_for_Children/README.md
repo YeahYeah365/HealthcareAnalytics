@@ -16,7 +16,7 @@ In this project I looked at the State Medicaid and CHIP Applications, Eligibilit
 ### 📁 SQL Scripts
 | Project | Key Functions | Code Link |
 | :--- | :--- | :--- |
-| **CHIP Data Extraction** | Filtering, Joins, Date formatting (YYYY-MM-DD) | [SQL Script](./queries.sql|)
+| **CHIP Data Extraction** | Filtering, Joins, Date formatting (YYYY-MM-DD) | [SQL Script](./queries.sql)
 
 ### 📊 R Scripts
 | Project | Libraries Used | Code Link |

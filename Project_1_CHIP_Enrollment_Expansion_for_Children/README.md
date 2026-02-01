@@ -16,12 +16,12 @@ In this project I looked at the State Medicaid and CHIP Applications, Eligibilit
 ### 📁 SQL Scripts
 | Project | Key Functions | Code Link |
 | :--- | :--- | :--- |
-| **CHIP Data Extraction** | Filtering, Joins, Date formatting (YYYY-MM-DD) | [SQL Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/queries.sql) |
+| **CHIP Data Extraction** | Filtering, Joins, Date formatting (YYYY-MM-DD) | [SQL Script](./queries.sql|)
 
 ### 📊 R Scripts
 | Project | Libraries Used | Code Link |
 | :--- | :--- | :--- |
-| **Enrollment Visualization** | `tidyverse`, `ggplot2`, `lubridate` | [R Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/chip_enrollment_analysis.R) |
+| **Enrollment Visualization** | `tidyverse`, `ggplot2`, `lubridate` | [R Script](./chip_enrollment_analysis.R) |
 
 ### 🖼️ Tableau Dashboards
 | Dashboard | Description | Status |

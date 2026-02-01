@@ -32,7 +32,7 @@ In this project I looked at the State Medicaid and CHIP Applications, Eligibilit
 
 ## 📈 Key Visualizations
 ### CHIP Enrollment Trends (2023-2025)
-![CHIP Trends](./Project_1_CHIP_Enrollment_Expansion_for_Children/chip_trends.png)
+![CHIP Trends](./chip_trends.png)
 
 ---
 

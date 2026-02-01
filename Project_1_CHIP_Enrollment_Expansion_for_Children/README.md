@@ -4,8 +4,8 @@ In this project I looked at the State Medicaid and CHIP Applications, Eligibilit
 
 
 ## Table of Contents
-* [SQL Scripts](#-sql-projects)
-* [R Scripts](#-r-projects)
+* [SQL Scripts](#-sql-scripts)
+* [R Scripts](#-r-scripts)
 * [Tableau Dashboards](#-tableau-dashboards)
 * [Chris' Guides](#-chris-guides)
 

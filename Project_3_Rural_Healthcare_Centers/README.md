@@ -41,17 +41,17 @@ With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims t
 
 ## 📈 Key Visualizations
 
-### 1. RHC Top 10 Development Trends
+### 1. Historical Incorporation Trends (1950-2026)
 ![RHC Top 10 Trends](./rhc_chart_1.jpeg)
 
 ---
 
-### 2. FQHC Top 10 Development Trends
+### 2. RHC Top 10 Development Trends
 ![FQHC Top 10 Trends](./rhc_chart_2.jpeg)
 
 ---
 
-### 3. Historical Incorporation Trends (1950-2026)
+### 3. FQHC Top 10 Development Trends
 ![Historical Growth Bar Chart](./fqhc_chart.jpeg)
 
 ---

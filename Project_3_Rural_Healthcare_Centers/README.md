@@ -1,18 +1,53 @@
-# 🏥 Project 3: Rural Health Transformation Program Analysis 
+# Rural Health Transformation Program (RHTP) Analysis
 
-## 📖 Blog Companion
-This project provides the data backing for my recent post: **"[A New Bid to Improve Rural Health"](https://dragontreecomms.com/a-new-bid-to-improve-rural-health)**. 
+This project analyzes the current landscape of rural healthcare infrastructure in the U.S. in light of the $50 billion Rural Health Transformation Program (RHTP) initiative. It explores the distribution, historical growth, and state-level variations of Rural Health Clinics (RHCs) and Federally Qualified Health Centers (FQHCs).
 
-## ❓ The Problem
-In December of 2025, the Administration announced the establishment of a $50 billion initiative called the Rural Health Transformation Program (RHTP). The purpose of this program is to allocate money to the 50 U.S. states to fix what it calls "systemic problems that leave rural Americans without access to good health care." 
-
-In my analysis, I examine historical trends in the establishment of two types of community health centers that might see a resurgence in funding as part of this program: rural health clinics (RHCs) and federally qualified health centers (FQHCs).
-
-## 🛠️ SQL Implementation
-* **Historical Analysis:** Showing historical trends in CMS data on RHCs and FQHCs.
-* **Graphing Rural Trends:** Calculating which areas of the U.S. have historically invested in their community health centers, and where investment in the future is likely to be allocated.
+## Table of Contents
+* [Problem Statement](#-problem-statement)
+* [Data Sources](#-data-sources)
+* [SQL Implementation](#-sql-implementation)
+* [R Analysis & Visualization](#-r-analysis--visualization)
+* [Key Insights](#-key-insights)
 
 ---
-### 🔗 Navigation
-* [Read the Blog Post](https://dragontreecomms.com/a-new-bid-to-improve-rural-health)
-* [View SQL Analysis](./rural_analysis.sql)
+
+## ❓ Problem Statement
+With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims to fix systemic access issues in rural America. This analysis investigates how existing infrastructure—specifically 5,450+ RHCs and various FQHC "look-alikes"—is positioned to receive these funds, focusing on which states lead in facility density and where historical growth has stagnated.
+
+---
+
+## 📂 Data Sources
+* **CMS Data:** Rural Health Clinic and Federally Qualified Health Center enrollment records (1950–2026).
+* **HRSA:** Definitions for FQHC "Look-Alikes" and Section 330 grant structures.
+* **Dragon Tree Communications:** Research on the RHTP funding breakdown (50% equal distribution vs. 50% CMS "technical" scoring).
+
+---
+
+## 🛠️ SQL Implementation
+### Rural Facility Enrollment & Trends
+| Project | Key Functions | Code Link |
+| :--- | :--- | :--- |
+| **Rural Health Analysis** | Aggregations (COUNT by State), Date Filtering (Growth over time), Joins | [SQL Script](./rural_analysis.sql) |
+
+---
+
+## 📊 R Analysis & Visualization
+### Historical Incorporation & Growth Outliers
+| Project | Libraries Used | Code Link |
+| :--- | :--- | :--- |
+| **Growth Trend Analysis** | `tidyverse`, `ggplot2` | [R Script](./rural_health_analysis.R) |
+
+---
+
+## 📈 Key Visualizations
+### RHC vs. FQHC State Leaderboards
+*(Placeholder for charts showing Kentucky and California leads)*
+![Rural Health Facility Trends](./rural_health_trends.png)
+
+---
+
+## 💡 Key Insights
+* **State Leaders:** Kentucky leads the nation in RHCs (409), while California dominates FQHC enrollments. Texas is a consistent top-three performer across both facility types.
+* **Historical Spikes:** Identified Tennessee as a massive outlier in RHC expansion during the 1990s and North Carolina as a unique spike for FQHCs post-2000.
+* **Funding Stakes:** Analysis highlights the urgency for states to demonstrate "technical need" to secure their share of the discretionary $25 billion RHTP fund.
+* **Stagnation:** Data shows that FQHC incorporation peaked in the 1970s–90s and has remained at low levels ever since, suggesting a significant need for the RHTP's "New Bid" to revitalize infrastructure.

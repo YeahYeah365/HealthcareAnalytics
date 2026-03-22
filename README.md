@@ -12,14 +12,13 @@ This project analyzes the current landscape of rural healthcare infrastructure i
 ---
 
 ## ❓ Problem Statement
-With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims to fix systemic access issues in rural America. This analysis investigates how existing infrastructure—specifically 5,450+ RHCs and various FQHC "look-alikes"—is positioned to receive these funds, focusing on which states lead in facility density and where historical growth has stagnated.
+With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims to fix systemic access issues in rural America. This analysis investigates how existing infrastructure—specifically 5,450+ RHCs and various FQHC "look-alikes"—is positioned to receive these funds.
 
 ---
 
 ## 📂 Data Sources
 * **CMS Data:** Rural Health Clinic and Federally Qualified Health Center enrollment records (1950–2026).
-* **HRSA:** Definitions for FQHC "Look-Alikes" and Section 330 grant structures.
-* **Dragon Tree Communications:** Research on the RHTP funding breakdown (50% equal distribution vs. 50% CMS "technical" scoring).
+* **Dragon Tree Communications:** Research on the RHTP funding breakdown.
 
 ---
 
@@ -27,7 +26,7 @@ With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims t
 ### Rural Facility Enrollment & Trends
 | Project | Key Functions | Code Link |
 | :--- | :--- | :--- |
-| **Rural Health Analysis** | Aggregations (COUNT by State), Date Filtering (Growth over time), Joins | [SQL Script](./rural_analysis.sql) |
+| **Rural Health Analysis** | Aggregations, Date Filtering, Joins | [SQL Script](./rural_analysis.sql) |
 
 ---
 
@@ -41,29 +40,25 @@ With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims t
 
 ## 📈 Key Visualizations
 
-### 1. RHC State Leaderboard (Kentucky & Texas)
-Analysis of the top 45 states by Rural Health Clinic enrollment, identifying the high-density regions poised for RHTP funding.
-![RHC Distribution](./rhc_chart_1.jpeg)
+### 1. RHC Top 10 Development Trends
+This collection of charts tracks the states with the most significant inflows of Rural Health Clinics, highlighting Tennessee as a major outlier.
+![RHC Top 10 Trends](./rhc_chart_1.jpeg)
 
 ---
 
-### 2. Historical RHC Enrollment Spikes
-Tracking the pace of RHC expansion between 1950 and 2026, highlighting the significant growth outlier in Tennessee during the 1990s.
-![RHC Growth Trends](./rhc_chart_2.jpeg)
+### 2. FQHC Top 10 Development Trends
+A comparative analysis of the top 10 states for Federally Qualified Health Center incorporations, showing the unique post-2000 spike in North Carolina.
+![FQHC Top 10 Trends](./rhc_chart_2.jpeg)
 
 ---
 
-### 3. FQHC Incorporation Trends
-Visualizing the peak growth period of Federally Qualified Health Centers (1970s–1990s) and the subsequent stagnation in new incorporations.
-![FQHC Trends](./fqhc_chart.jpeg)
+### 3. Historical Incorporation Trends (1950-2026)
+This bar chart visualizes the annual rate of center incorporations, showing the "boom" era of the 1970s-90s followed by recent stagnation.
+![Historical Growth Bar Chart](./fqhc_chart.jpeg)
 
 ---
 
 ## 💡 Key Insights
-* **State Leaders:** Kentucky leads the nation in RHCs (409), while California dominates FQHC enrollments. Texas is a consistent top-three performer across both facility types.
-
-* **Historical Spikes:** Identified Tennessee as a massive outlier in RHC expansion during the 1990s and North Carolina as a unique spike for FQHCs post-2000.
-
-* **Funding Stakes:** Analysis highlights the urgency for states to demonstrate "technical need" to secure their share of the discretionary $25 billion RHTP fund.
-
-* **Stagnation:** Data shows that FQHC incorporation peaked in the 1970s–90s and has remained at low levels ever since, suggesting a significant need for the RHTP's "New Bid" to revitalize infrastructure.
+* **State Leaders:** Kentucky leads the nation in RHCs (409), while California dominates FQHC enrollments. 
+* **Historical Spikes:** Identified Tennessee as a massive outlier in RHC expansion during the 1990s.
+* **Stagnation:** Data shows that FQHC incorporation peaked in the 1970s–90s and has remained at low levels ever since.

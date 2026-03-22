@@ -44,6 +44,16 @@ With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims t
 *(Placeholder for charts showing Kentucky and California leads)*
 ![Rural Health Facility Trends](./rural_health_trends.png)
 
+
+
+## 📈 Key Visualizations
+### RHC vs. FQHC State Leaderboards
+![Rural Health Facility Trends](./rural_health_trends.png)
+
+
+
+
+
 ---
 
 ## 💡 Key Insights

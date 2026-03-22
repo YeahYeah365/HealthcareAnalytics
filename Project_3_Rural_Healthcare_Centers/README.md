@@ -1,7 +1,7 @@
 # 🏥 Project 3: Rural Health Transformation Program Analysis 
 
 ## 📖 Blog Companion
-This project provides the data backing for my recent post: **"[Bridging the Gap: Rural Healthcare in 2026"](https://dragontreecomms.com/a-new-bid-to-improve-rural-health)**. 
+This project provides the data backing for my recent post: **"[A New Bid to Improve Rural Health"](https://dragontreecomms.com/a-new-bid-to-improve-rural-health)**. 
 
 ## ❓ The Problem
 In December of 2025, the Administration announced the establishment of a $50 billion initiative called the Rural Health Transformation Program (RHTP). The purpose of this program is to allocate money to the 50 U.S. states to fix what it calls "systemic problems that leave rural Americans without access to good health care." 

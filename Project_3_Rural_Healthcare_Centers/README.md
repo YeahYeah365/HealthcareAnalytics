@@ -43,13 +43,13 @@ With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims t
 
 ### 1. State-Level RHC Distribution
 This chart illustrates the concentration of Rural Health Clinics, highlighting Kentucky and Texas as primary leaders in the RHTP landscape.
-![RHC Distribution](./chart1.png)
+![RHC Distribution](./rhc_chart_1.jpeg)
 
 ---
 
 ### 2. Historical Enrollment Spikes (1950-2026)
 This visualization captures the unique growth outliers identified in the research, specifically the Tennessee and North Carolina spikes.
-![Historical Growth Trends](./chart2.png)
+![Historical Growth Trends](./rhc_chart_2.jpeg)
 
 ---
 

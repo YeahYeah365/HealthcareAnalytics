@@ -1,6 +1,6 @@
 # Rural Health Transformation Program (RHTP) Analysis
 
-This project analyzes the current landscape of rural healthcare infrastructure in the U.S. in light of the $50 billion Rural Health Transformation Program (RHTP) initiative. It explores the distribution, historical growth, and state-level variations of Rural Health Clinics (RHCs) and Federally Qualified Health Centers (FQHCs).
+This [blog post](https://dragontreecomms.com/a-new-bid-to-improve-rural-health) analyzes the current landscape of rural healthcare infrastructure in the U.S. in light of the $50 billion Rural Health Transformation Program (RHTP) initiative. It explores the distribution, historical growth, and state-level variations of Rural Health Clinics (RHCs) and Federally Qualified Health Centers (FQHCs).
 
 ## Table of Contents
 * [Problem Statement](#-problem-statement)

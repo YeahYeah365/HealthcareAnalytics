@@ -1,61 +1,69 @@
-# Chris Hobson's Healthcare Data Analysis Portfolio
+# Rural Health Transformation Program (RHTP) Analysis
 
-Welcome to Chris' Healthcare Data Analysis Portfolio. This is where I will collect all of my data analysis projects related to healthcare.
+This project analyzes the current landscape of rural healthcare infrastructure in the U.S. in light of the $50 billion Rural Health Transformation Program (RHTP) initiative. It explores the distribution, historical growth, and state-level variations of Rural Health Clinics (RHCs) and Federally Qualified Health Centers (FQHCs).
 
 ## Table of Contents
-* [Projects](#-featured-healthcare-projects)
-* [SQL Implementations](#-sql-projects)
-* [R & Data Visualization](#-r-projects)
-* [Tableau Dashboards](#-tableau-dashboards)
-* [Chris' Guides](#-chris-guides)
+* [Problem Statement](#-problem-statement)
+* [Data Sources](#-data-sources)
+* [SQL Implementation](#-sql-implementation)
+* [R Analysis & Visualization](#-r-analysis--visualization)
+* [Key Insights](#-key-insights)
 
 ---
 
-## 🚀 Featured Healthcare Projects
-| Project | Summary | Folder Link |
-| :--- | :--- | :--- |
-| **Rural Health Transformation** | **[NEW]** Analysis of the Rural Health Transformation Program, focusing on FQHC accessibility and provider ratios. | [View Project Folder](./Project_3_Rural_Healthcare_Centers/) |
-| **Hepatitis B Vaccine Guidance** | SQL analysis of Hepatitis B reporting rates and vaccination trends to evaluate the impact of updated CDC guidance. | [View Project Folder](./Project_2_Hepatitis_B_Vaccine_Guidance/) |
-| **CHIP Enrollment Analysis** | Investigated enrollment trends across 5 states (2023-2025) following eligibility expansion. | [View Project Folder](./Project_1_CHIP_Enrollment_Expansion_for_Children/README.md) |
-
+## ❓ Problem Statement
+With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims to fix systemic access issues in rural America. This analysis investigates how existing infrastructure—specifically 5,450+ RHCs and various FQHC "look-alikes"—is positioned to receive these funds, focusing on which states lead in facility density and where historical growth has stagnated.
 
 ---
 
-## 🛠️ Skills & Implementation
+## 📂 Data Sources
+* **CMS Data:** Rural Health Clinic and Federally Qualified Health Center enrollment records (1950–2026).
+* **HRSA:** Definitions for FQHC "Look-Alikes" and Section 330 grant structures.
+* **Dragon Tree Communications:** Research on the RHTP funding breakdown (50% equal distribution vs. 50% CMS "technical" scoring).
 
-### 📁 SQL Projects
+---
+
+## 🛠️ SQL Implementation
+### Rural Facility Enrollment & Trends
 | Project | Key Functions | Code Link |
 | :--- | :--- | :--- |
-| **Rural Health Analysis** | Healthcare Policy Analysis, Historical Community Health Center Trends | [SQL Script](./Project_3_Rural_Healthcare_Centers/rural_analysis.sql) |
-| **Hepatitis B Analysis** | Aggregations, State-level Comparison | [SQL Script](./Project_2_Hepatitis_B_Vaccine_Guidance/queries.sql) |
-| **CHIP Data Extraction** | Filtering, Joins, Date formatting | [SQL Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/queries.sql) |
+| **Rural Health Analysis** | Aggregations (COUNT by State), Date Filtering (Growth over time), Joins | [SQL Script](./rural_analysis.sql) |
 
+---
 
-### 📊 R Projects
+## 📊 R Analysis & Visualization
+### Historical Incorporation & Growth Outliers
 | Project | Libraries Used | Code Link |
 | :--- | :--- | :--- |
-| **Enrollment Visualization** | `tidyverse`, `ggplot2`, `lubridate` | [R Script](./Project_1_CHIP_Enrollment_Expansion_for_Children/chip_enrollment_analysis.R) |
-
-### 🖼️ Tableau Dashboards
-| Dashboard | Description | Status |
-| :--- | :--- | :--- |
-| **TBD** | Upcoming visualization project. | *In Progress* |
+| **Growth Trend Analysis** | `tidyverse`, `ggplot2` | [R Script](./rural_health_analysis.R) |
 
 ---
 
 ## 📈 Key Visualizations
-### CHIP Enrollment Trends (2023-2025)
-![CHIP Trends](./Project_1_CHIP_Enrollment_Expansion_for_Children/chip_trends.png)
+
+### 1. RHC State Leaderboard (Kentucky & Texas)
+Analysis of the top 45 states by Rural Health Clinic enrollment, identifying the high-density regions poised for RHTP funding.
+![RHC Distribution](./rhc_chart_1.jpeg)
 
 ---
 
-## 📚 Chris' Guides
-Please check out this list of resources I've used in my projects.
-* (Links coming soon)
+### 2. Historical RHC Enrollment Spikes
+Tracking the pace of RHC expansion between 1950 and 2026, highlighting the significant growth outlier in Tennessee during the 1990s.
+![RHC Growth Trends](./rhc_chart_2.jpeg)
 
 ---
 
-## ⚙️ Technical Details
-* **Environment:** VS Code, RStudio, MySQL 9.6.0
-* **Version Control:** Git/GitHub
-* **Data Sources:** CMS.gov Medicaid/CHIP Monthly Reports, HRSA Data Warehouse
+### 3. FQHC Incorporation Trends
+Visualizing the peak growth period of Federally Qualified Health Centers (1970s–1990s) and the subsequent stagnation in new incorporations.
+![FQHC Trends](./fqhc_chart.jpeg)
+
+---
+
+## 💡 Key Insights
+* **State Leaders:** Kentucky leads the nation in RHCs (409), while California dominates FQHC enrollments. Texas is a consistent top-three performer across both facility types.
+
+* **Historical Spikes:** Identified Tennessee as a massive outlier in RHC expansion during the 1990s and North Carolina as a unique spike for FQHCs post-2000.
+
+* **Funding Stakes:** Analysis highlights the urgency for states to demonstrate "technical need" to secure their share of the discretionary $25 billion RHTP fund.
+
+* **Stagnation:** Data shows that FQHC incorporation peaked in the 1970s–90s and has remained at low levels ever since, suggesting a significant need for the RHTP's "New Bid" to revitalize infrastructure.

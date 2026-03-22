@@ -41,21 +41,17 @@ With $50 billion allocated over five fiscal years (2026–2030), the RHTP aims t
 ## 📈 Key Visualizations
 
 ### 1. RHC Top 10 Development Trends
-This collection of charts tracks the states with the most significant inflows of Rural Health Clinics, highlighting Tennessee as a major outlier.
-![RHC Top 10 Trends](./rhc_chart_1.jpeg)
+![RHC Top 10 Trends](rhc_chart_1.jpeg)
 
 ---
 
 ### 2. FQHC Top 10 Development Trends
-A comparative analysis of the top 10 states for Federally Qualified Health Center incorporations, showing the unique post-2000 spike in North Carolina.
-![FQHC Top 10 Trends](./rhc_chart_2.jpeg)
+![FQHC Top 10 Trends](rhc_chart_2.jpeg)
 
 ---
 
 ### 3. Historical Incorporation Trends (1950-2026)
-This bar chart visualizes the annual rate of center incorporations, showing the "boom" era of the 1970s-90s followed by recent stagnation.
-![Historical Growth Bar Chart](./fqhc_chart.jpeg)
-
+![Historical Growth Bar Chart](fqhc_chart.jpeg)
 ---
 
 ## 💡 Key Insights

@@ -18,7 +18,6 @@ Public health spending and procurement habits vary drastically by state jurisdic
 ---
 
 ## 📂 Data Sources
-## 📂 Data Sources
 * **CMS SDUD:** [Medicaid State Drug Utilization Data (Audited 2025 Full Release)](https://data.medicaid.gov/dataset/158a1baa-5506-400a-8ec3-97756f0b0536)
 * **CMS Enrollment:** [State Medicaid and CHIP Applications, Monthly Reports (Updated through April 2026)](https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360)
 

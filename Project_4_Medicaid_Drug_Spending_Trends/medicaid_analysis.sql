@@ -19,7 +19,7 @@ Yearly_Drug_Usage AS (
       AND `Year` = 2025                             -- Strict 2025 filter
     GROUP BY `State`
 )
--- Combining the two "prepped bowls" into the final 2025 metric
+-- Combining the two calculations into the final 2025 metric
 SELECT 
     TRIM(d.`State`) AS `State`,
     ROUND(

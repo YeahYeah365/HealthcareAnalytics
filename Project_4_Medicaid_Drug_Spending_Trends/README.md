@@ -5,8 +5,8 @@ This project analyzes variations in Medicaid and CHIP prescription drug utilizat
 ## Table of Contents
 * [Problem Statement](#-problem-statement)
 * [Data Sources](#-data-sources)
-* [SQL Implementation](#sql-implementation)
-* [R Analysis & Visualization](#r-analysis--visualization)
+* [SQL Implementation](#-sql-implementation)
+* [R Analysis & Visualization](#-r-analysis--visualization)
 * [Key Visualizations](#-key-visualizations)
 * [Key Insights](#-key-insights)
 

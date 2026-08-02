@@ -43,7 +43,7 @@ Post-pandemic Medicaid and CHIP redetermination policies created significant sta
 
 ### 1. Total Active CHIP Enrollment Trends (2023–2026)
 This continuous multi-line graph tracks active CHIP enrollment trends across Arizona, Colorado, Kansas, Maine, and North Dakota, utilizing strictly validated state reporting records (`Final_Report == "Y"`).
-![Total CHIP Enrollment Trends](images/combined_chip_enrollment_trends.png)
+<img width="3300" height="1950" alt="combined_chip_enrollment_trends" src="https://github.com/user-attachments/assets/8c54f6c9-b01a-47d8-8d58-128f1bca42ef" />
 
 ---
 

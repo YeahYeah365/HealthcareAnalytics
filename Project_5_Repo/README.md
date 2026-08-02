@@ -10,7 +10,8 @@ The project evaluates post-pandemic active enrollment trajectories using validat
 ## Combined State Enrollment Trends
 *The visualization below tracks total active CHIP enrollment continuously from January 2023 through March 2026, using strictly validated administrative records (`Final_Report == "Y"`).*
 
-![Total CHIP Enrollment Trends across Focus States](images/combined_chip_enrollment_trends.png)
+<img width="3300" height="1950" alt="combined_chip_enrollment_trends" src="https://github.com/user-attachments/assets/54801374-c3d7-4abb-945d-aca4bfa480dc" />
+
 
 ---
 

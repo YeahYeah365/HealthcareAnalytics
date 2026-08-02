@@ -35,7 +35,7 @@ Post-pandemic Medicaid and CHIP redetermination policies created significant sta
 ### Baseline Visualizations
 | Analysis | Libraries Used | Code Link |
 | :--- | :--- | :--- |
-| **Time-Series Plotting** | `tidyverse`, `ggplot2`, `dplyr`, `lubridate` | [R Script](./scripts/generate_chip_line_graphs.R) |
+| **Time-Series Plotting** | `tidyverse`, `ggplot2`, `dplyr`, `lubridate` | [R Script](./Scripts/generate_chip_line_graphs.R) |
 
 ---
 

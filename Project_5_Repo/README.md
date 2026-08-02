@@ -1,26 +1,53 @@
 # Project 5: CHIP Enrollment Trends Analysis (2023–2026)
 
-## Overview & Objectives
-This repository contains data transformation and visualization workflows tracking continuous Child Health Insurance Program (CHIP) active monthly enrollment trends across five focus states: **Arizona, Colorado, Kansas, Maine, and North Dakota**.
+This project evaluates continuous Child Health Insurance Program (CHIP) active monthly enrollment trajectories across five focus states: **Arizona, Colorado, Kansas, Maine, and North Dakota**. By tracking validated administrative state reporting files from January 2023 through March 2026, this analysis establishes an audited baseline to measure regional variations and post-pandemic enrollment changes.
 
-The project evaluates post-pandemic active enrollment trajectories using validated state reporting files to analyze regional variation and multi-year percentage changes.
-
----
-
-## Combined State Enrollment Trends
-*The visualization below tracks total active CHIP enrollment continuously from January 2023 through March 2026, using strictly validated administrative records (`Final_Report == "Y"`).*
-
-![Total CHIP Enrollment Trends across Focus States](images/combined_chip_enrollment_trends.png)
+## Table of Contents
+* [Problem Statement](#-problem-statement)
+* [Data Sources](#-data-sources)
+* [SQL Implementation](#-sql-implementation)
+* [R Analysis & Visualization](#-r-analysis--visualization)
+* [Key Visualizations](#-key-visualizations)
+* [Key Insights](#-key-insights)
 
 ---
 
-## Key Findings & Parameters
-* **Primary Metric:** `TotCHIPEnr` (Total Active CHIP Enrollment).
-* **Time Horizon:** January 2023 through March 2026 (Continuous monthly time series).
-* **Cleaning & Presentation:** Dates are parsed dynamically, and visualizations utilize 45-degree angled x-axis labels for optimized readability across years.
+## ❓ Problem Statement
+Post-pandemic Medicaid and CHIP redetermination policies created significant state-level fluctuations in program coverage. This analysis evaluates active monthly CHIP enrollment trajectories across five focus states to quantify multi-year percentage shifts and identify key enrollment baselines following public health emergency unwindings.
 
 ---
 
-## Technical Stack
-* **SQL (MySQL Dialect):** Common Table Expressions (CTEs), conditional aggregation (`CASE WHEN`), string-to-date conversion.
-* **R / Tidyverse:** `ggplot2` (custom state color palettes, continuous axes), `dplyr`, `lubridate` (date parsing), `readr`.
+## 📂 Data Sources
+* **CMS CHIP Enrollment Data:** [State Medicaid and CHIP Applications, Monthly Reports](https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360)
+* **Time Horizon:** January 2023 through March 2026 (Continuous monthly series with 2022–2026 baseline averages)
+
+---
+
+## 🛠️ SQL Implementation
+### Relational Table Joins & Aggregations
+| Focus | Key Functions / Operations | Code Link |
+| :--- | :--- | :--- |
+| **Data Engineering** | Common Table Expressions (CTEs), `CASE WHEN` Conditional Aggregations, `STR_TO_DATE()`, `NULLIF()` Handling | [SQL Script](./sql/chip_enrollment_averages.sql) |
+
+---
+
+## 📊 R Analysis & Visualization
+### Baseline Visualizations
+| Analysis | Libraries Used | Code Link |
+| :--- | :--- | :--- |
+| **Time-Series Plotting** | `tidyverse`, `ggplot2`, `dplyr`, `lubridate` | [R Script](./scripts/generate_chip_line_graphs.R) |
+
+---
+
+## 📈 Key Visualizations
+
+### 1. Total Active CHIP Enrollment Trends (2023–2026)
+This continuous multi-line graph tracks active CHIP enrollment trends across Arizona, Colorado, Kansas, Maine, and North Dakota, utilizing strictly validated state reporting records (`Final_Report == "Y"`).
+<img src="images/combined_chip_enrollment_trends.png" alt="Total CHIP Enrollment Trends" width="100%" />
+
+---
+
+## 💡 Key Insights
+* **Metric Standardization:** Evaluates active coverage using `TotCHIPEnr` (Total Active CHIP Enrollment) across all selected focus jurisdictions.
+* **Data Integrity:** Filtering exclusively for records where `Final_Report = 'Y'` (in SQL) and `Final_Report == "Y"` (in R) eliminates preliminary reporting duplicates and unverified figures.
+* **Visual Optimization:** Time-series dates are parsed dynamically via `lubridate`, utilizing 45-degree angled x-axis labels to ensure clear visual separation across multi-year trends.

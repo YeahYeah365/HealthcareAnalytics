@@ -13,10 +13,10 @@ library(lubridate)
 
 theme_set(theme_bw() + theme(panel.grid.minor = element_blank()))
 
-base_dir <- "/Users/chrishobson/Desktop/Dragon Tree/Blog/14. Update on CHIP enrollment -- June 2026 update for March 2026 numbers"
+base_dir <- "file path (anonymized)"
 setwd(base_dir)
 
-chip_data_raw <- read_csv("Data/1. First Draft/CHIP-June-2026-update-March-2026-numbers.csv", 
+chip_data_raw <- read_csv("Name of .csv file (anonymized)", 
                           locale = locale(encoding = "Windows-1252"))
 
 data_ready_for_plot <- chip_data_raw %>%
@@ -35,7 +35,7 @@ comparison_data <- data_ready_for_plot %>%
   ) %>%
   mutate(TotCHIPEnr = as.numeric(TotCHIPEnr))
 
-output_dir <- file.path(base_dir, "CHIP_Trends_March_2026_Data", "3. Third Draft")
+output_dir <- file.path(base_dir, "File name (anonymized)")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 combined_palette <- c(

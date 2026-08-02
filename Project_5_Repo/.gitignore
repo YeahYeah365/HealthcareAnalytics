@@ -1,0 +1,8 @@
+# Ignore raw data files
+Data/
+*.csv
+*.png
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/

@@ -6,3 +6,4 @@ Data/
 .Rhistory
 .RData
 .Rproj.user/
+!images/*.png
